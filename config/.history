@@ -84,3 +84,28 @@ pip install pydot
 pip install graphviz
 dot -version
 dot -version
+ssh 
+ssh -p 7795 -L 2222:172.16.1.51:22 hust@120.202.110.254
+ssh -p 2222 xuhejun@127.0.0.1
+ssh -p 7795 -L 2222:172.16.1.51:22 hust@120.202.110.254
+pip install pydot
+pip install pydot
+pip install graphviz
+dot -version
+dot -version
+cd C:\Users\sunyan\Documents\GitHub\TibetanMNIST
+git init
+git add README.md
+git config --global core.autocrlf false 
+git add .
+git commit -m "first commit"
+git pull
+git push
+git remote rm origin
+git remote add origin git@github.com:SunYanCN/Tibetan-MNIST.git
+git push -u origin master
+git push -u origin master
+cd C:\Users\sunyan\PycharmProjects\untitled1
+ls
+c:
+python auto_load.py
